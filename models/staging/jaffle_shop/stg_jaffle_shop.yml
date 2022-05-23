@@ -16,7 +16,7 @@ models:
       - name: status
         tests:
           - accepted_values:
-            values:
-              - shipped
-              - completed   
-              - return_pending         
+              values:
+                - shipped
+                - completed   
+                - return_pending         
