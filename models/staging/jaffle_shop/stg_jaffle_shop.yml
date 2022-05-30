@@ -12,6 +12,7 @@ models:
   - name: stg_orders
     columns:
       - name: order_id
+        descriptio: Primary keyfor the stg_orders
         tests:
           - unique
           - not_null
